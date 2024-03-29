@@ -4,4 +4,4 @@ RUN \
     chmod +x ./rustup.sh && \
     ./rustup.sh -y && \
     apt update && \
-    apt install -y build-essential libssl-dev
+    apt install -y build-essential libssl-dev git pkg-config libclang-dev
